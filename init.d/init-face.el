@@ -6,10 +6,11 @@
 
 (when (package-installed-p 'zenburn-theme)
   (load-theme 'zenburn t)
-  (set-face-background 'region "#1B1B1B"))
+  ;; (set-face-background 'region "#1B1B1B")
+  )
 
 (setq default-frame-alist
-      (append '((alpha . 85)) default-frame-alist))
+      (append '((alpha . 98)) default-frame-alist))
 
 (custom-set-faces
  '(flymake-errline ((((class color)) (:underline (:color "red" :style wave)))))
