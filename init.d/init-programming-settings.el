@@ -48,7 +48,7 @@
 
             ;; (require 'init-tabbar)
             (require 'init-auto-complete)
-            (require 'init-helm)
+            ;; (require 'init-helm)
             (require 'init-sh)
             (require 'init-js)
             (require 'init-haml)

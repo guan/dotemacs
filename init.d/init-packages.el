@@ -43,6 +43,7 @@
     rinari
     ruby-block
     ruby-end
+    robe
     sass-mode
     scss-mode
     sequential-command
