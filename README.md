@@ -1,6 +1,14 @@
 dotemacs
 ========
 
+.emacs
+------
+
+```
+(load (expand-file-name (concat (getenv "HOME") "/.emacs.d/init")))
+```
+
+
 ```
 (let ((default-directory "~/.emacs.d/"))
   (normal-top-level-add-subdirs-to-load-path))
