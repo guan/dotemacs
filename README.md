@@ -8,6 +8,8 @@ dotemacs
 (load (expand-file-name (concat (getenv "HOME") "/.emacs.d/init")))
 ```
 
+.emacs.d/init.el
+------
 
 ```
 (let ((default-directory "~/.emacs.d/"))
